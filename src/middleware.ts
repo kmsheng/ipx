@@ -121,7 +121,7 @@ async function _handleRequest(
   }
 
   // Prevent XSS
-  res.headers["Content-Security-Policy"] = "default-src 'none'";
+  //res.headers["Content-Security-Policy"] = "default-src 'none'";
 
   res.body = data;
 
